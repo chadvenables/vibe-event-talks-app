@@ -53,11 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // So, let's pre-calculate slots for the original full list.
     const processedTalks = calculateSchedule(allTalks);
     
-    // Now filter the processed list
+    // Now filter the processed list based on the talks passed to the function
     const displayTalks = isFiltered 
       ? processedTalks.filter(item => 
           item.type === 'talk' && 
-          item.data.categories.some(cat => cat.toLowerCase().includes(searchInput.value.toLowerCase()))
+          talks.includes(item.data)
         )
       : processedTalks;
 
