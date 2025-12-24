@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Serverless Architectures",
+    "speakers": ["Alice Johnson"],
+    "categories": ["Cloud", "Backend"],
+    "duration": 60,
+    "description": "Explore the next generation of serverless computing, including edge functions and stateful serverless patterns."
+  },
+  {
+    "id": 2,
+    "title": "Scaling Node.js for High Performance",
+    "speakers": ["Bob Smith", "Charlie Davis"],
+    "categories": ["Node.js", "Performance"],
+    "duration": 60,
+    "description": "Deep dive into event loop optimization, clustering, and best practices for building high-scale Node.js applications."
+  },
+  {
+    "id": 3,
+    "title": "Modern Frontend State Management",
+    "speakers": ["Diana Prince"],
+    "categories": ["Frontend", "JavaScript"],
+    "duration": 60,
+    "description": "A comparative analysis of Redux, MobX, Recoil, and native Context API for managing complex state in web apps."
+  },
+  {
+    "id": 4,
+    "title": "Machine Learning in the Browser",
+    "speakers": ["Evan Wright"],
+    "categories": ["AI", "WebAssembly"],
+    "duration": 60,
+    "description": "Leveraging TensorFlow.js and WebAssembly to run performant machine learning models directly in the client."
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Essentials for Developers",
+    "speakers": ["Fiona Green", "George Hall"],
+    "categories": ["Security", "DevOps"],
+    "duration": 60,
+    "description": "Common vulnerabilities in modern web applications and how to secure your code against XSS, CSRF, and injection attacks."
+  },
+  {
+    "id": 6,
+    "title": "The Evolution of CSS: Grid, Subgrid, and Container Queries",
+    "speakers": ["Hannah Lee"],
+    "categories": ["CSS", "Frontend"],
+    "duration": 60,
+    "description": "How modern CSS features are revolutionizing responsive web design and component-based layouts."
+  }
+]
