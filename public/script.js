@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
   searchInput.addEventListener('input', (e) => {
     const term = e.target.value.toLowerCase();
     const filteredTalks = allTalks.filter(talk => 
-      talk.categories.some(cat => cat.toLowerCase().includes(term))
+      talk.categories.some(cat => cat.toLowerCase().includes(term)) ||
+      talk.speakers.some(speaker => speaker.toLowerCase().includes(term))
     );
     renderSchedule(filteredTalks, true);
   });
